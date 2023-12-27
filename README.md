@@ -108,7 +108,3 @@ curl -X POST -H "Content-Type: multipart/form-data" -F "file=@path/to/document.d
 ```
 
 Feel free to customize the API calls based on your application's needs.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
