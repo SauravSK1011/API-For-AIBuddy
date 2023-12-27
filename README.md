@@ -74,17 +74,17 @@ Replace the placeholder values with your actual API keys and tokens.
 
 ### Chatbot:
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"message": "Hello, AIBuddy!"}' http://localhost:5000/chatbot
+curl -X POST -H "Content-Type: application/json" -d '{"message": "Hello, AIBuddy!"}' http://localhost:5000/chat
 ```
 
 ### Image Recognition:
 ```bash
-curl -X POST -H "Content-Type: multipart/form-data" -F "image=@path/to/image.jpg" http://localhost:5000/image-recognition
+curl -X POST -H "Content-Type: multipart/form-data" -F "image=@path/to/image.jpg" http://localhost:5000/imagerecognition
 ```
 
 ### Generate Image:
 ```bash
-curl -X POST http://localhost:5000/generate-image
+curl -X -H "Content-Type: application/json" -d '{"prompt": "prompt to generate image!"}' POST http://localhost:5000/generateimage
 ```
 
 ### Q&A using Google PALM:
