@@ -1,0 +1,10 @@
+bardapi
+flask
+PyPDF2==2.12.1
+pandas
+google-generativeai==0.2.1
+python-docx
+langchain
+gunicorn
+python-dotenv
+cloudinary
